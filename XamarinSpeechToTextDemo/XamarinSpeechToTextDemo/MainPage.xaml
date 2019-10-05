@@ -3,14 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              mc:Ignorable="d"
+             iOsSpecific:Page.UseSafeArea="true"
              x:Class="XamarinSpeechToTextDemo.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="RecognitionText"               
+               FontSize="Small"
+               HeightRequest="100"
+               HorizontalOptions="FillAndExpand" />
+
+        <Button x:Name="EnableMicrophoneButton"
+                Text="Enable microphone &amp; STT permission"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnEnableMicrophoneButtonClicked" />
+
+        <Button x:Name="RecognitionButton"
+                IsEnabled="False"
+                Text="Start speech recognition"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnRecognitionButtonClicked" />
     </StackLayout>
 
 </ContentPage>

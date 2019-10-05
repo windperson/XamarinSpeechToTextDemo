@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using XamarinSpeechToTextDemo.iOS.Services;
+using XamarinSpeechToTextDemo.Services;
 
 namespace XamarinSpeechToTextDemo.iOS
 {
@@ -23,6 +25,9 @@ namespace XamarinSpeechToTextDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            Xamarin.Forms.DependencyService.Register<ISpeechToTextService, SpeechToTextService>();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

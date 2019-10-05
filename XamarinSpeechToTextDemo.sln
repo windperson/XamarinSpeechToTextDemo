@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinSpeechToTextDemo.UWP", "XamarinSpeechToTextDemo\XamarinSpeechToTextDemo.UWP\XamarinSpeechToTextDemo.UWP.csproj", "{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinSpeechToTextDemo.Android", "XamarinSpeechToTextDemo\XamarinSpeechToTextDemo.Android\XamarinSpeechToTextDemo.Android.csproj", "{9379EB15-A834-4889-A3CC-7099414EF715}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinSpeechToTextDemo.iOS", "XamarinSpeechToTextDemo\XamarinSpeechToTextDemo.iOS\XamarinSpeechToTextDemo.iOS.csproj", "{C7D94D0F-8988-409B-878F-F16DD337544E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinSpeechToTextDemo", "XamarinSpeechToTextDemo\XamarinSpeechToTextDemo\XamarinSpeechToTextDemo.csproj", "{8CB26518-E117-44F4-8E1A-8BAB620B82FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinSpeechToTextDemo", "XamarinSpeechToTextDemo\XamarinSpeechToTextDemo\XamarinSpeechToTextDemo.csproj", "{8CB26518-E117-44F4-8E1A-8BAB620B82FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,42 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|Any CPU.Build.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|Any CPU.Deploy.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|ARM.ActiveCfg = Debug|ARM
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|ARM.Build.0 = Debug|ARM
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|ARM.Deploy.0 = Debug|ARM
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|iPhone.ActiveCfg = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|iPhone.Build.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|iPhone.Deploy.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|iPhoneSimulator.Build.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|iPhoneSimulator.Deploy.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|x64.ActiveCfg = Debug|x64
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|x64.Build.0 = Debug|x64
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|x64.Deploy.0 = Debug|x64
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|x86.ActiveCfg = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|x86.Build.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Debug|x86.Deploy.0 = Debug|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|Any CPU.ActiveCfg = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|Any CPU.Build.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|Any CPU.Deploy.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|ARM.ActiveCfg = Release|ARM
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|ARM.Build.0 = Release|ARM
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|ARM.Deploy.0 = Release|ARM
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|iPhone.ActiveCfg = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|iPhone.Build.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|iPhone.Deploy.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|iPhoneSimulator.ActiveCfg = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|iPhoneSimulator.Build.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|iPhoneSimulator.Deploy.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|x64.ActiveCfg = Release|x64
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|x64.Build.0 = Release|x64
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|x64.Deploy.0 = Release|x64
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|x86.ActiveCfg = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|x86.Build.0 = Release|x86
-		{5515BE8F-8B44-4524-BA35-C850DC0FC9DE}.Release|x86.Deploy.0 = Release|x86
 		{9379EB15-A834-4889-A3CC-7099414EF715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9379EB15-A834-4889-A3CC-7099414EF715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9379EB15-A834-4889-A3CC-7099414EF715}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
