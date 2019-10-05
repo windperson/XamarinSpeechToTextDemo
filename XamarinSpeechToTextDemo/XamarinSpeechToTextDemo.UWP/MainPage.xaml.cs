@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using XamarinSpeechToTextDemo.Services;
+using XamarinSpeechToTextDemo.UWP.Services;
 
 namespace XamarinSpeechToTextDemo.UWP
 {
@@ -21,6 +23,7 @@ namespace XamarinSpeechToTextDemo.UWP
         {
             this.InitializeComponent();
 
+            Xamarin.Forms.DependencyService.Register<IMicrophoneService, MicrophoneService>();
             LoadApplication(new XamarinSpeechToTextDemo.App());
         }
     }

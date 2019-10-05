@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using XamarinSpeechToTextDemo.iOS.Services;
+using XamarinSpeechToTextDemo.Services;
 
 namespace XamarinSpeechToTextDemo.iOS
 {
@@ -25,6 +27,7 @@ namespace XamarinSpeechToTextDemo.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            Xamarin.Forms.DependencyService.Register<IMicrophoneService, MicrophoneService>();
             return base.FinishedLaunching(app, options);
         }
     }
