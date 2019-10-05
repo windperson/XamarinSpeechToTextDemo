@@ -27,6 +27,8 @@ namespace XamarinSpeechToTextDemo
             {
                 var speechConfig =
                     SpeechConfig.FromSubscription("Your_Cognitive_Service_Key", "Your_Cognitive_Service_Region");
+                    
+                speechConfig.SpeechRecognitionLanguage = "zh-TW";
 
                 using (var recognizer = new SpeechRecognizer(speechConfig))
                 {
